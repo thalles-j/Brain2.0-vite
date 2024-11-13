@@ -22,12 +22,10 @@ document.querySelectorAll('.btnCurtida').forEach(button => {
 const ui = {
   async renderizarFeed() {
     const feedComunidade = document.getElementById("feed-comunidade");
-
+    feedComunidade.innerHTML = ""
     try {
       const mensagens = await api.buscarFeed();
-      mensagens.forEach(mensagem => {
-        this.addMensagem(mensagem);
-      });
+      mensagens.forEach(ui.addMensagem);
     } catch (error) {
       alert('Erro ao renderizar as mensagens');
     }
