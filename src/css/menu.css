@@ -1,0 +1,127 @@
+:root {
+    --blue: #205072;
+    --blue-010: #002c53;
+
+    --green: #32909C;
+    --green-010: #56C595;
+    --green-020: #7BE495;
+    --green-030: #CFF3D2;
+
+    --grey: #b1b1b1;
+
+    --black: rgb(55 65 81);
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    color: var(--black);
+}
+
+p {
+    color: var(--black);
+}
+
+header {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 0.2em 2em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 10;
+}
+
+.user-menu {
+    font-size: 17px;
+    margin-right: 5%;
+}
+
+header h1 {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+header h1 .bi.bi-slack {
+    margin-right: 0.2em;
+}
+
+@media(max-width: 992px) {
+    header h1 {
+        font-size: 22px;
+    }
+}
+
+.container-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.container-menu .bi.bi-person-circle {
+    color: var(--black);
+}
+
+@media(max-width: 992px) {
+    .container-menu .bi.bi-person-circle {
+        font-size: 31px;
+    }
+}
+
+.container-menu .btn .bi.bi-person-circle:hover {
+    background-color: none;
+}
+
+.container-menu .btn {
+    background-color: var(--white);
+    color: var(--black);
+    border: none;
+    font-size: 30px;
+    padding: 0.2em;
+    transition: 0.4s all ease;
+}
+
+@media(max-width: 992px) {
+    .container-menu .btn {
+        font-size: 22px;
+    }
+}
+
+.container-menu .btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-menu {
+    background-color: var(--white);
+}
+
+.dropdown-item:active{
+    background-color: var(--green-030);
+    color: var(--black);
+}
+
+@media(max-width: 730px) {
+    header {
+        padding: 0.5em;
+    }
+}

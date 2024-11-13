@@ -1,0 +1,95 @@
+{
+  "mensagem": [
+    {
+      "id": "1",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "Acredito que é essencial falar sobre saúde mental de forma aberta. Muitas vezes, as pessoas se sentem isoladas em suas lutas, e um simples 'como você está?' pode fazer toda a diferença. É importante lembrar que pedir ajuda é um sinal de força.",
+      "likes": 45,
+      "comentarios": 8,
+      "anonimo": true
+    },
+    {
+      "id": "2",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "Nos últimos meses, percebi como a saúde mental impacta minha vida diária. Criar um espaço seguro para discutir sentimentos e preocupações tem sido fundamental para meu bem-estar. Recomendo que todos busquem apoio e pratiquem o autocuidado.",
+      "likes": 48,
+      "comentarios": 7,
+      "anonimo": true
+    },
+    {
+      "id": "3",
+      "autor": "Junior Rodrigues",
+      "autorImagem": "src/assets/imgs/user-anonimo.png",
+      "content": "O feedback que recebi sobre minha saúde mental me ajudou a perceber a importância de estabelecer limites. Aprendi que cuidar de mim mesmo não é egoísmo, e isso tem feito uma grande diferença na minha qualidade de vida.",
+      "likes": 50,
+      "comentarios": 9,
+      "anonimo": false
+    },
+    {
+      "id": "4",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "Quero agradecer àqueles que me apoiaram em momentos difíceis. Conversar sobre saúde mental não é fácil, mas compartilhar experiências e ouvir os outros é um passo importante para quebrar estigmas e promover a compreensão.",
+      "likes": 42,
+      "comentarios": 6,
+      "anonimo": true
+    },
+    {
+      "id": "5",
+      "autor": "Arthur Fernandes",
+      "autorImagem": "-",
+      "content": "Uma das coisas mais valiosas que aprendi sobre saúde mental é que não precisamos enfrentar isso sozinhos. Compartilhar minhas experiências com amigos e familiares tem sido um alívio e um caminho para a cura. Vamos continuar essa conversa!",
+      "likes": 39,
+      "comentarios": 4,
+      "anonimo": true
+    },
+    {
+      "id": "6",
+      "autor": "Roberto da Silva",
+      "autorImagem": "src/assets/imgs/robertodasilva.jpg",
+      "content": "Muitas pessoas ainda têm vergonha de falar sobre saúde mental, mas isso precisa mudar. Precisamos criar mais espaço para conversas sobre o tema, para que as próximas gerações cresçam sem esse estigma.",
+      "likes": 33,
+      "comentarios": 3,
+      "anonimo": false
+    },
+    {
+      "id": "7",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "A forma como a sociedade lida com questões de saúde mental muitas vezes não ajuda. Falar abertamente sobre isso é o primeiro passo para que possamos criar um ambiente de apoio real.",
+      "likes": 27,
+      "comentarios": 2,
+      "anonimo": true
+    },
+    {
+      "id": "8",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "A prática do autocuidado tem sido transformadora para mim. Nunca imaginei o impacto positivo que pequenos momentos de pausa podem ter na saúde mental.",
+      "likes": 38,
+      "comentarios": 5,
+      "anonimo": true
+    },
+    {
+      "id": "9",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "Percebi que falar sobre meus sentimentos é importante, mas também ouvir os outros com empatia e respeito é essencial. Somos todos humanos e precisamos de apoio.",
+      "likes": 44,
+      "comentarios": 6,
+      "anonimo": true
+    },
+    {
+      "id": "10",
+      "autor": "Anônimo",
+      "autorImagem": "-",
+      "content": "Saúde mental não é uma luta que se vence sozinho. Buscar ajuda e criar um círculo de apoio são passos essenciais para superar os desafios que enfrentamos.",
+      "likes": 41,
+      "comentarios": 5,
+      "anonimo": true
+    }
+    
+  ]
+}

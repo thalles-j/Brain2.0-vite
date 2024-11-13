@@ -1,0 +1,129 @@
+:root {
+    --blue: #205072;
+    --blue-010: #002c53;
+
+    --green: #32909C;
+    --green-010: #56C595;
+    --green-020: #7BE495;
+    --green-030: #CFF3D2;
+
+    --grey: #b1b1b1;
+
+    --black: rgb(55 65 81);
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body.modal-open {
+    padding-right: 0 !important;
+    overflow-y: scroll;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+    border: none;
+}
+
+main {
+    padding-top: 7em;
+    min-height: 100vh;
+}
+
+@media(max-width: 720px){
+    main {
+        padding-top: 6.5em;
+        min-height: 100vh;
+    }
+}
+
+.a-btn {
+    color: var(--black);
+    background-color: var(--blue);
+    transition: 0.4s all ease;
+    padding: 0.5em;
+    border: 2px solid var(--blue);
+    color: var(--white);
+    border-radius: 0.6em;
+}
+
+.a-btn:hover {
+    background-color: transparent;
+    color: var(--blue);
+    transform: scale(1.05);
+}
+
+.dicas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.container-dicas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    margin: 1.5em 0;
+}
+
+.container-dicas h3 {
+    font-weight: 600;
+}
+
+.dicas-content {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 1em 2em;
+}
+
+.dicas-content-1 {
+    background-color: var(--green-010);
+}
+
+.dicas-content-2 {
+    background-color: var(--green-020);
+}
+
+.dicas-content-3 {
+    background-color: var(--green-030);
+}
+
+@media (max-width: 1200px) {
+    .container-dicas {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2em;
+        margin: 2em 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-dicas {
+        margin: 1em 0;
+    }
+}
+
+.modal button {
+    opacity: 1;
+    background-color: red;
+    transition: 0.4s all ease;
+}
+
+.number-modal {
+    color: var(--green-010);
+}
+
+.modal-footer {
+    justify-content: flex-start;
+}
